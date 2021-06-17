@@ -11,6 +11,7 @@ namespace VariableConstantNS
    char c = 'P';
    string s = "Pranik";
    bool isWorking =true;
+   const float Pi = 3.14f;
    
    Console.WriteLine("byte:{0}",b);
    Console.WriteLine("int:{0}",number);
@@ -18,6 +19,7 @@ namespace VariableConstantNS
    Console.WriteLine("char:{0}",c);
    Console.WriteLine("string:{0}",s);
    Console.WriteLine("bool:{0}",isWorking);
+   Console.WriteLine("Pi:{0}",Pi);
    }
   }
 }
