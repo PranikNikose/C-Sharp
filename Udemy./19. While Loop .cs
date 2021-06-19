@@ -26,7 +26,10 @@ namespace WhileLoopNS
                 if (String.IsNullOrWhiteSpace(s))
                     break;
                 else
+                {
                     Console.WriteLine("@Repeat " + s);
+                    //continue;
+                }
             }
 
         }
