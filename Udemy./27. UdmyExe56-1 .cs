@@ -29,7 +29,7 @@ namespace FacebookNS
             else if (count == 1)
                 Console.WriteLine(list1[0] + " Likes Your Post");
             else
-                Console.WriteLine("");
+                Console.WriteLine(""); //
         }
     }
 }
