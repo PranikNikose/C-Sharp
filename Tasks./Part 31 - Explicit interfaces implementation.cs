@@ -25,9 +25,14 @@ class Program
 {
     static void Main()
     {
+        ///by casting to a parent class or interface class 
         myClass c1 = new myClass();
         ((I1)c1).InterfaceMethod();
         ((I2)c1).InterfaceMethod();
+        
+        // interface reference varible pointing to a derived class
+         I1 c1 = new myClass();
+        c1.InterfaceMethod();
 
     }
 }
