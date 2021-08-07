@@ -1,5 +1,6 @@
+
 using System;
-public class Exercise1
+public class Exercise2
 {
     public static void Main()
     {
